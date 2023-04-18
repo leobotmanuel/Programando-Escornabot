@@ -1,0 +1,110 @@
+# 1. Información de los contenidos
+site_name: Programando Escornabot con Arduinoblocks.
+site_description: Desarrollo del robot Escornabot
+site_author: Manuel Hidalgo - LeoBot
+site_url: https://leobotmanuel.github.io/
+
+# 2. Repositorio
+repo_name: leobotmanuel/Programando-Escornabot
+repo_url: https://github.com/leobotmanuel/Programando-Escornabot
+edit_uri: ""
+
+# 3. Copyright
+copyright: Copyright &copy; 2022- 2030 Club Robótica Granada
+
+# 4. RRSS
+extra:
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/leobotmanuel
+      name: Twitter de LeoBot - Manuel Hidalgo
+    - icon: fontawesome/brands/github
+      link: https://github.com/leobotmanuel
+      name: Github de LeoBot - Manuel Hidalgo
+    #- icon: fontawesome/brands/instagram
+    #  link: https://www.instagram.com/cocafederico/?hl=es
+    #  name: Instagram de Federico Coca
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/clubroboticagra
+      name: Twitter de Club Robótica Granada 
+
+# 5. Navegación
+nav:
+  # Modelo para empezar: Intro, Info del autor y la instalación
+  - Introducción: index.md
+  #- Misión a Marte: 
+  #  - Introducción: misionMarte/index.md
+  #  - EscornaRover Explorador: misionMarte/explorador.md
+  #  - Rover Marciano: misionMarte/rover.md
+  #  - Galeria: misionMarte/galeria.md
+  #  - Colaboradores: misionMarte/colaboradores.md
+  - Autores: about.md
+  
+# 6. Google Analytics
+#google_analytics:
+#  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+#  - auto
+
+# 7. Configuración del tema
+theme:
+  name: material
+  # Color - Fuentes - Lenguaje
+  palette:
+    primary: blue grey # TODO:
+    accent: red # TODO:
+  font:
+    text: Roboto #TODO:
+    code: Roboto Mono # TODO:
+  logo: img/favicon.png #TODO:
+  favicon: img/favicon.png # TODO:
+  language: es
+  # Página 404
+  static_templates:
+    - 404.html
+  # No incluir los JavaScript de MkDocs
+  #include_search_page: false
+  #search_index_only: true
+
+# 8. Extensiones
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      linenums: true
+      # guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# 9. Necesario para la extensión pydownx.arithmatex
+extra_javascript:
+  # Este fichero es opcional y solo si se quiere sobreescribir la configuracion del plugin
+  #- js/extra.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+
+# 10. Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
