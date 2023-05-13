@@ -32,7 +32,7 @@ extra:
 nav:
   # Modelo para empezar: Intro, Info del autor y la instalación
   - Introducción: index.md
-  #- Misión a Marte: 
+  - Hardware: hardware.md 
   #  - Introducción: misionMarte/index.md
   #  - EscornaRover Explorador: misionMarte/explorador.md
   #  - Rover Marciano: misionMarte/rover.md
