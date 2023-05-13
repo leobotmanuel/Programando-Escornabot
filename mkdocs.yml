@@ -33,7 +33,7 @@ nav:
   # Modelo para empezar: Intro, Info del autor y la instalación
   - Introducción: index.md
   - Hardware: hardware.md 
-  #  - Introducción: misionMarte/index.md
+  - Software: software.md
   #  - EscornaRover Explorador: misionMarte/explorador.md
   #  - Rover Marciano: misionMarte/rover.md
   #  - Galeria: misionMarte/galeria.md
