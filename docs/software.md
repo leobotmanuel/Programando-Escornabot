@@ -17,5 +17,9 @@ En el siguiente link se ha desarrollado un primer programa que se está testeand
 
 http://www.arduinoblocks.com/web/project/1217118
 
+<center>
+![funcionesMovimienos](img/software/progLista.png)
 
+Programa de control
+</center>
 
