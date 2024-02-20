@@ -34,6 +34,7 @@ nav:
   - Introducción: index.md
   - Hardware: hardware.md 
   - Software: software.md
+  - Programas de control: progControl.md
   #  - EscornaRover Explorador: misionMarte/explorador.md
   #  - Rover Marciano: misionMarte/rover.md
   #  - Galeria: misionMarte/galeria.md

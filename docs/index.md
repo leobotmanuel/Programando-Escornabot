@@ -1,9 +1,5 @@
 # **Introducción**
-<center>
-![obrero](img/introduccion/obrero.gif)
 
-En construcción
-</center>
 
 Proyectos de programación del robot [Escornabot](https://escornabot.com).
 

@@ -53,6 +53,8 @@ Pines de los motores paso a paso
 </center>
 Información sobre el funcionamiento de motores paso a paso en [programarfacil.com](https://programarfacil.com/blog/arduino-blog/motor-paso-a-paso-uln2003-l298n/).
 
+[Información y práctica de programación de los bloques de Arduinoblocks](https://github.com/arduinoblocks/academy/blob/master/P19_motor_pasoapaso.pdf)
+
 En [Arduinoblocks](http://www.arduinoblocks.com) existe unos bloques de programación con los que se pueden hacer un programa de prueba.
 En el programa se indica la configuración de las conexiones en el **bloque inizialización**.
 
@@ -85,6 +87,6 @@ Para calcular el número de paso de un desplazamiento lineal (D) en mm.
 
 pasos = D/0,114
 
-El programa de test motor paso a paso
+El programa de test para motores paso a paso
 
 http://www.arduinoblocks.com/web/project/editor/1617035
